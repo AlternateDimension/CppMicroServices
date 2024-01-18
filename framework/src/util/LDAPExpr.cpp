@@ -1137,7 +1137,7 @@ namespace cppmicroservices
         }
         if (!nIsSet)
         {
-            return std::string();
+            return {};
         }
         return m_str.substr(start, n);
     }
