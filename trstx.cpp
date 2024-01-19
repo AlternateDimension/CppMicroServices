@@ -3,6 +3,6 @@ void printNum(int abc, float dsx){
 }
 
 int main(){
-  printNum(5.0f,1);
+  printNum(1,5.0f);
   return 0;
 }
